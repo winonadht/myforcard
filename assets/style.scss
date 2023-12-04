@@ -1,0 +1,52 @@
+$orange: orange;
+$red: red;
+$green: rgb(37, 231, 160);
+$blue: rgb(0, 136, 255) ;
+$shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+body {
+    background-color: whitesmoke;
+}
+
+.tailleboite {
+    width: 350px;
+    height: 230px;
+    background-color: white;
+    box-shadow: $shadow;
+    margin: 15px;
+    padding: 20px 10px 20px 10px;
+    border-radius: 15px;
+    
+}
+.green {
+    border-top: 5px solid $green;
+}
+.red {
+    border-top: 5px solid $red;
+}
+.blue {
+    border-top: 5px solid $blue;
+}
+.orange {
+    border-top: 5px solid $orange;
+
+}
+
+.flexbox-central {
+    color: rgb(79, 79, 79);
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+
+    }
+}
+
+.title {
+    color:rgb(80, 80, 80);
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+ }
